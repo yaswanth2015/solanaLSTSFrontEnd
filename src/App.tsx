@@ -1,7 +1,7 @@
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base"
 import { ConnectionProvider, useConnection, useWallet, WalletProvider } from "@solana/wallet-adapter-react"
-import { WalletConnectButton, WalletDisconnectButton, WalletModalProvider, WalletMultiButton } from "@solana/wallet-adapter-react-ui"
-import { clusterApiUrl, LAMPORTS_PER_SOL, PublicKey, sendAndConfirmTransaction, SystemProgram, Transaction } from "@solana/web3.js"
+import { WalletDisconnectButton, WalletModalProvider, WalletMultiButton } from "@solana/wallet-adapter-react-ui"
+import { clusterApiUrl, LAMPORTS_PER_SOL, PublicKey, SystemProgram, Transaction } from "@solana/web3.js"
 import { useMemo, useState } from "react"
 import '@solana/wallet-adapter-react-ui/styles.css';
 import { EnvironmentVariables } from "../EnvironmentVariables.ts"
