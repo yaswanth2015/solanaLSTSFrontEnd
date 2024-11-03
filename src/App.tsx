@@ -74,7 +74,7 @@ function TransactionBlock() {
 
   return <>
   <div>
-    <input placeholder="Enter Lamports" onChange={(e)=>{setLamports(e.target.value)} } type="number" step={0.0000001}></input>
+    <input placeholder="Enter Lamports" onChange={(e)=>{setLamports(e.target.value)} } type="number" step={0.0000001} value={sol}></input>
     <button onClick={()=> {submit()}}>Send</button>
   </div>
   </>
